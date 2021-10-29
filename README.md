@@ -37,11 +37,11 @@ As a beginner, you may be nervous to participate, but fear not! There are tons o
 * Fork the repository (Click the Fork button in the top right of this page, click your Profile Image)
 * Clone the forked repository to your local machine.
 ```markdown
-git clone https://github.com/your-username/HacktoberFest2021.git
+git clone https://github.com/your-username/DSA
 ```
 * change the present working directory
 ```markdown
-cd HacktoberFest2021
+cd DSA
 ```
 * Add/Create your project to the specific folder as described in what you can contribute section.
 * Make a new branch
