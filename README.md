@@ -1,10 +1,10 @@
 ### **This is a beginner Friendly Repo dedicated to different types of algorithms used in various programming languages**
 
-# ✨ hacktoberfest2021 💫
+# ✨ hacktoberfest2022 💫
 
-![banner](https://hacktoberfest.digitalocean.com/_nuxt/img/logo-hacktoberfest-full.f42e3b1.svg)
+![banner](assets/Hacktoberfest%202022.png)
 </br>
-Are you interested in participating in Hacktoberfest 2021 presented by Digital Ocean, Dev, and Intel? You came to the right place!
+Are you interested in participating in Hacktoberfest 2022 presented by Digital Ocean, appwrite, and docker? You came to the right place!
 
 </br>
 
@@ -23,11 +23,11 @@ Hacktoberfest is open to everyone in our global community! Maintainers determine
 
 As a beginner, you may be nervous to participate, but fear not! There are tons of ways to participate in Hacktoberfest, no matter your experience level.
 
-## 🌱 Contributing to hacktoberfest 2021
+## 🌱 Contributing to hacktoberfest 2022
 
 </br>
 
-### Process are as follows :- 
+### Process are as follows :-
 * Login using github @ [Hacktoberfest](https://hacktoberfest.digitalocean.com/)
 * Create four valid pull requests (PRs) between 1st - 31st October
 
@@ -74,5 +74,5 @@ Happy Coding! 😊
 
 
 
-   
+
 <!--       END OF README           END OF README         END OF README         END OF README          END OF README           END OF README           END OF README      -->
