@@ -1,3 +1,4 @@
+// I love C language so i did this code in C language
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
