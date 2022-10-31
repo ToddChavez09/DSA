@@ -1,4 +1,4 @@
-// this codde is written in cpp language
+
 #include<iostream>
 #include<queue>
 using namespace std;
