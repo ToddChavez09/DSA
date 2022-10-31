@@ -1,0 +1,41 @@
+//find 2 non repeating element in the array
+//input array: (size=8) 2 4 3 4 7 8 8 2 
+//output: 3 7 (order does not matter)
+
+#include <bits/stdc++.h>
+using namespace std;
+
+int main()
+{
+    int n;
+    cin>>n;
+    vector<int> num(n);
+    
+    for(int i=0;i<n;i++)
+    cin>>num[i];
+
+    int XOR=0;
+    for(int i=0;i<n;i++)
+    {
+        XOR=XOR^num[i];  //Xor of all the numbers in an array
+    }
+    int cnt=__builtin_ctz(XOR);  //give first set bit from right(least significant side)
+
+
+    int num1=0,num2=0;
+
+    int mask=1<<cnt;  //create a mask 
+
+    for(int i=0;i<n;i++)
+    {
+       if(((num[i])& (mask))==0)  //posibilities:zero and any positive integer
+       {
+           num1=num1^num[i];
+       }
+       else
+       num2=num2^num[i];
+    }
+    cout<<num1<<" "<<num2<<endl;
+
+
+}
