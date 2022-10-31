@@ -46,7 +46,6 @@ int divide(long long dividend, long long divisor) {
   return quotient;
 }
 
-// Driver code
 int main() {
   int a = 10, b = 3;
   cout << divide(a, b) << "\n";
