@@ -1,3 +1,4 @@
+// this code is written in JAVA
 package BST;
 
 class searchForKeyInBST {
