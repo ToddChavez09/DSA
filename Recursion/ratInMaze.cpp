@@ -1,6 +1,5 @@
 #include <bits/stdc++.h>
 #define int long long
-#define mod (int)(1e9 + 7)
 #define ln "\n"
 #define spc " "
 #define gcd(a,b) __gcd(a,b)
