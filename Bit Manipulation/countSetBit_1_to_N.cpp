@@ -1,4 +1,3 @@
-//Count total set bits in all numbers from 1 to n
 #include <bits/stdc++.h>
 using namespace std;
 #define     mod             (int)(1e9 + 7)
