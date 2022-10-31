@@ -1,0 +1,28 @@
+//Given an integer n, calculate the square of a number without using *, / and pow(). 
+#include <bits/stdc++.h>
+using namespace std;
+
+int main()
+{
+  long long n;
+  cin>>n;
+
+  //let n=5
+  //5*5
+  //5*(101)
+  //5*(2^2 +2^0)
+  //5*(2^2) + 5*(2^0)
+  //5<<2 +5<<0
+  //20 + 5
+  //25
+
+  long long i=0,m=n,ans=0;
+  while((1LL << i) <= n)
+  {
+    if(m&1)  
+    ans+=(n<<i);
+    m=m>>1;
+    i++;
+  }
+  cout<<ans;
+}
