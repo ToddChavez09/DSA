@@ -1,3 +1,5 @@
+// this code is written in cpp language
+
 #include <bits/stdc++.h>
 using namespace std;
 
