@@ -1,0 +1,37 @@
+// find position of the only set bit.
+// If there are 0 or more than 1 set bit the answer should be -1.
+// Position of  set bit '1' should be counted starting with 1 from LSB side in binary representation of the number.
+
+#include <bits/stdc++.h>
+using namespace std;
+
+// power of two
+bool isPowerofTwo(long long n)
+{
+
+    if (n == 0) //***important***
+        return false;
+    // Your code here
+    return (n & n - 1) == 0;
+}
+
+int findPosition(int N)
+{
+    // code here
+    if ((N & N - 1) == 0 && N != 0)
+    {
+        // return log2(N)+1;
+
+        return 32 - __builtin_clz(N);  //count leading zeroes
+    }
+    else
+        return -1;
+}
+
+int main()
+{
+
+    int N;
+    cin >> N;
+    cout << findPosition(N);
+}
