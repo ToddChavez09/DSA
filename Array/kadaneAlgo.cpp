@@ -17,7 +17,7 @@ int maxSubArraySum(int a[], int size)
 	return max_so_far;
 }
 
-// Driver Code
+// Driver Code means in layman language it is main function
 int main()
 {
 	int a[] = { -2, -3, 4, -1, -2, 1, 5, -3 };
